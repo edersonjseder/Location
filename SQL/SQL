@@ -1,0 +1,29 @@
+CREATE TABLE country (
+		country_id integer not null auto_increment,
+		name varchar(255),
+		primary key(country_id));
+
+CREATE TABLE city (
+		city_id integer not null auto_increment,
+		name varchar(255),
+		primary key(city_id));
+
+ALTER TABLE city
+    ADD COLUMN country_id int,
+    ADD FOREIGN KEY country_id(country_id) REFERENCES country(country_id);
+
+INSERT INTO country (country_id, name) VALUES(1,'United States');
+INSERT INTO country (country_id, name) VALUES(2,'Germany');
+INSERT INTO country (country_id, name) VALUES(3,'Canada');
+
+INSERT INTO city (city_id, name, country_id) VALUES(1,'New York',1);
+INSERT INTO city (city_id, name, country_id) VALUES(2,'Los Angeles',1);
+INSERT INTO city (city_id, name, country_id) VALUES(3,'New Orleans',1);
+INSERT INTO city (city_id, name, country_id) VALUES(4,'Berlin',2);
+INSERT INTO city (city_id, name, country_id) VALUES(5,'Dortmund',2);
+INSERT INTO city (city_id, name, country_id) VALUES(6,'Frankfurt',2);
+INSERT INTO city (city_id, name, country_id) VALUES(7,'Toronto',3);
+INSERT INTO city (city_id, name, country_id) VALUES(8,'Vancouver',3);
+INSERT INTO city (city_id, name, country_id) VALUES(9,'Quebec',3);
+
+
