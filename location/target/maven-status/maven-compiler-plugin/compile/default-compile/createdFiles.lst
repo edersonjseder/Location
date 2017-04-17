@@ -1,0 +1,13 @@
+com/aroundinfo/project/rest/GsonMessageBodyHandler.class
+com/aroundinfo/project/service/CityService.class
+com/aroundinfo/project/rest/CityResource.class
+com/aroundinfo/project/service/AppConf.class
+com/aroundinfo/project/dao/CityDAO.class
+com/aroundinfo/project/model/Country.class
+com/aroundinfo/project/model/ResponseJSON.class
+com/aroundinfo/project/model/City.class
+com/aroundinfo/project/rest/JerseyApplication.class
+com/aroundinfo/project/rest/CountryResource.class
+com/aroundinfo/project/dao/CountryDAO.class
+com/aroundinfo/project/service/CountryService.class
+com/aroundinfo/project/dao/HibernateDAO.class
