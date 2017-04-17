@@ -140,13 +140,6 @@
     	</exclusions>
     </dependency>	
     
-    <!-- Google Gson -->
-    <dependency>
-    	<groupId>com.google.code.gson</groupId>
-    	<artifactId>gson</artifactId>
-    	<version>2.3.1</version>
-    </dependency>
-    
     <!-- Spring -->
     <dependency>
     	<groupId>org.springframework</groupId>
