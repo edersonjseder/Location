@@ -80,4 +80,6 @@ The database is MySQL Database 5 and it's used the following credentials to acce
 
 And can be changed at the <i>connection.properties</i> file in the .war file to better attend portability. Please change for the proper database.
 
-<i><b>The Database usage of this project:</b></i>
+<i><b>The SQL Scripts usage of this project:</b></i>
+
+Attached it will have a SQL script file with the creation of the tables for testing, and the insertion of some data for testing as well
